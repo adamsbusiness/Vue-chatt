@@ -1,0 +1,40 @@
+// Font Awesome
+@import "node_modules/font-awesome/css/font-awesome.min";
+
+.fa-spin-fast {
+    animation: fa-spin 1s infinite linear;
+}
+
+.navbar {
+    .icon, .user-avatar {
+        margin-right: 0.25rem;
+    }
+    .user-avatar {
+        vertical-align: bottom;
+    }
+}
+
+.level {
+    .level-item {
+        .icon:first-child:not(:last-child) {
+            margin-right: 0.25rem;
+        }
+        &[disabled] {
+            pointer-events: none;
+            opacity: 0.4;
+        }
+    }
+}
+
+.framework-info {
+    .image {
+        margin: 0 10px;
+    }
+    .columns {
+        margin: 50px 0 30px;
+    }
+}
+
+.modal-card-title {
+    flex-shrink: 1;
+}
